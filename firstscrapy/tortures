@@ -1,0 +1,22 @@
+
+Scrapy 使用方式
+命令行中直接输入scarpy会出现各种命令提示
+
+交互式
+- scrapy shell "url"
+
+创建项目
+- scrapy startproject firstscrapy
+
+创建Spider  cd firstscrapy
+- scrapy genspider firstscrapy "https://book.douban.com/top250"
+
+运行爬虫（在项目目录下运行）
+- scrapy crawl spidername
+  scrapy crawl SinaSpider
+  scrapy crawl DoubanSpider
+  scrapy crawl DoubanBooksDetail
+  
+
+spiders目录
+- 爬虫脚本
